@@ -1,0 +1,451 @@
+{
+  "title": "Profishop",
+  "timeout": 50000,
+  "snippets": false,
+  "description": null,
+  "savedAt": 1615050953,
+  "loadedAt": 1615052435,
+  "modified": true,
+  "filename": "profishop.json",
+  "targets": {
+    "h3gklxto6ym": {
+      "editing": false,
+      "id": "h3gklxto6ym",
+      "key": "h3gklxto6ym",
+      "target": "ACCEPT_USER_CENTRICS",
+      "selector": "//*[@id=\"uc-btn-accept-banner\"]",
+      "disabled": false,
+      "adding": false,
+      "parentType": "",
+      "ref": ""
+    },
+    "h3gklxto7c5": {
+      "editing": false,
+      "id": "h3gklxto7c5",
+      "key": "h3gklxto7c5",
+      "target": "CLOSE_TEASER",
+      "selector": "//*[@id=\"newsletterClose\"]",
+      "disabled": false,
+      "adding": false,
+      "parentType": "",
+      "ref": ""
+    },
+    "h3gklxttagf": {
+      "target": "FIRSTNAME_INPUT",
+      "id": "h3gklxttagf",
+      "editing": false,
+      "selector": "//*[@id=\"firstName\"]",
+      "ref": "",
+      "key": "h3gklxttagf"
+    },
+    "h4gklxub98q": {
+      "target": "SUBMIT_BTN",
+      "id": "h4gklxub98q",
+      "editing": false,
+      "selector": "//*[@id=\"newsletterModel\"]/div/button",
+      "ref": "",
+      "key": "h4gklxub98q"
+    },
+    "h4gklxv97hc": {
+      "target": "EAMIL_INPUT",
+      "id": "h4gklxv97hc",
+      "editing": false,
+      "selector": "//*[@id=\"email\"]",
+      "ref": "",
+      "key": "h4gklxv97hc"
+    },
+    "h4gklxvsh0p": {
+      "target": "PHONE_HEADER",
+      "id": "h4gklxvsh0p",
+      "editing": false,
+      "selector": "//*[@id=\"consult-phone\"]",
+      "ref": "",
+      "key": "h4gklxvsh0p"
+    }
+  },
+  "groups": {
+    "h3gklxto6fc": {
+      "editing": false,
+      "id": "h3gklxto6fc",
+      "key": "h3gklxto6fc",
+      "title": "Recorded session",
+      "tests": {
+        "h3gklxto6fd": {
+          "editing": false,
+          "id": "h3gklxto6fd",
+          "key": "h3gklxto6fd",
+          "title": "Recorded test case",
+          "commands": {
+            "h3gklxtp8em": {
+              "editing": false,
+              "id": "h3gklxtp8em",
+              "key": "h3gklxtp8em",
+              "target": "page",
+              "method": "setViewport",
+              "assert": {},
+              "params": {
+                "height": 1299,
+                "width": 2560
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h3gklxto6fc",
+              "testId": "h3gklxto6fd",
+              "waitForTarget": false
+            },
+            "h3gklxto7rk": {
+              "editing": false,
+              "id": "h3gklxto7rk",
+              "key": "h3gklxto7rk",
+              "target": "page",
+              "method": "goto",
+              "params": {
+                "url": "https://www.jh-profishop.de/newsletter/register/",
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h3gklxto6fc",
+              "testId": "h3gklxto6fd",
+              "waitForTarget": false
+            },
+            "h3gklxtoyas": {
+              "editing": false,
+              "id": "h3gklxtoyas",
+              "key": "h3gklxtoyas",
+              "target": "CLOSE_TEASER",
+              "method": "click",
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h3gklxto6fc",
+              "testId": "h3gklxto6fd",
+              "waitForTarget": true
+            },
+            "h3gklxtozr1": {
+              "editing": false,
+              "id": "h3gklxtozr1",
+              "key": "h3gklxtozr1",
+              "target": "ACCEPT_USER_CENTRICS",
+              "method": "click",
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h3gklxto6fc",
+              "testId": "h3gklxto6fd",
+              "waitForTarget": true
+            },
+            "h3gklxtyw8d": {
+              "editing": false,
+              "id": "h3gklxtyw8d",
+              "key": "h3gklxtyw8d",
+              "target": "FIRSTNAME_INPUT",
+              "method": "type",
+              "params": {
+                "value": "Testman",
+                "reset": false
+              },
+              "disabled": true,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h3gklxto6fc",
+              "testId": "h3gklxto6fd",
+              "waitForTarget": false
+            },
+            "h3gklxtp93w": {
+              "editing": false,
+              "id": "h3gklxtp93w",
+              "key": "h3gklxtp93w",
+              "target": "page",
+              "method": "assertScreenshot",
+              "assert": {
+                "assertion": "screenshot",
+                "mismatchTolerance": "0.2"
+              },
+              "params": {
+                "name": "Page 1",
+                "x": null,
+                "y": null,
+                "width": null,
+                "height": null,
+                "includeAA": true,
+                "diffColor": "#FF0000",
+                "aaColor": "#FFFF00",
+                "fullPage": false,
+                "omitBackground": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h3gklxto6fc",
+              "testId": "h3gklxto6fd",
+              "waitForTarget": false
+            }
+          },
+          "disabled": false,
+          "expanded": false,
+          "adding": false,
+          "groupId": "h3gklxto6fc"
+        }
+      },
+      "disabled": true,
+      "expanded": false,
+      "adding": false
+    },
+    "h4gklxvtne9": {
+      "title": "require",
+      "id": "h4gklxvtne9",
+      "editing": false,
+      "key": "h4gklxvtne9",
+      "tests": {
+        "h4gklxvuspr": {
+          "editing": false,
+          "id": "h4gklxvuspr",
+          "key": "h4gklxvuspr",
+          "title": "require email address",
+          "commands": {
+            "h4gklxvut5a": {
+              "editing": false,
+              "id": "h4gklxvut5a",
+              "key": "h4gklxvut5a",
+              "target": "page",
+              "method": "setViewport",
+              "params": {
+                "width": "1920",
+                "height": "1080",
+                "resolution": "",
+                "deviceScaleFactor": 1,
+                "isMobile": false,
+                "hasTouch": false,
+                "isLandscape": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": false,
+              "entity": "command"
+            },
+            "h4gklxvutdc": {
+              "editing": false,
+              "id": "h4gklxvutdc",
+              "key": "h4gklxvutdc",
+              "target": "page",
+              "method": "goto",
+              "assert": {},
+              "params": {
+                "url": "https://www.jh-profishop.de/newsletter/register/",
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": false,
+              "entity": "command"
+            },
+            "h4gklxvutmf": {
+              "editing": false,
+              "id": "h4gklxvutmf",
+              "key": "h4gklxvutmf",
+              "target": "CLOSE_TEASER",
+              "method": "click",
+              "assert": {},
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": true,
+              "entity": "command"
+            },
+            "h4gklxvutul": {
+              "editing": false,
+              "id": "h4gklxvutul",
+              "key": "h4gklxvutul",
+              "target": "ACCEPT_USER_CENTRICS",
+              "method": "click",
+              "assert": {},
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": true,
+              "entity": "command"
+            },
+            "h4gklxwrd83": {
+              "editing": false,
+              "id": "h4gklxwrd83",
+              "key": "h4gklxwrd83",
+              "target": "page",
+              "method": "evaluate",
+              "params": {
+                "value": "document.querySelector(\"#consult-phone\").style.visibility = \"hidden\";\ndocument.querySelector(\".call-number\").style.visibility = \"hidden\";"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": false
+            },
+            "h4gklxvuu2c": {
+              "editing": false,
+              "id": "h4gklxvuu2c",
+              "key": "h4gklxvuu2c",
+              "target": "EAMIL_INPUT",
+              "method": "type",
+              "params": {
+                "value": "lönölmlkmöO",
+                "reset": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": false
+            },
+            "h4gklxvuu9z": {
+              "editing": false,
+              "id": "h4gklxvuu9z",
+              "key": "h4gklxvuu9z",
+              "target": "SUBMIT_BTN",
+              "method": "click",
+              "assert": {},
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": false
+            },
+            "h4gklxvuuqm": {
+              "editing": false,
+              "id": "h4gklxvuuqm",
+              "key": "h4gklxvuuqm",
+              "target": "page",
+              "method": "assertScreenshot",
+              "assert": {
+                "assertion": "screenshot",
+                "mismatchTolerance": "0.2"
+              },
+              "params": {
+                "name": "Page 1",
+                "fullPage": false,
+                "omitBackground": false,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080,
+                "includeAA": true,
+                "diffColor": "#FF0000",
+                "aaColor": "#FFFF00"
+              },
+              "disabled": false,
+              "failure": "Error: [page.assertScreenshot] expected to satisfy mismatch tolerance of 0.2",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "h4gklxvtne9",
+              "testId": "h4gklxvuspr",
+              "waitForTarget": false
+            }
+          },
+          "disabled": false,
+          "expanded": false,
+          "adding": false,
+          "groupId": "h4gklxvtne9",
+          "entity": "test"
+        }
+      }
+    }
+  },
+  "puppetry": "3.2.4"
+}

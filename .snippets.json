@@ -1,0 +1,142 @@
+{
+  "title": null,
+  "timeout": 50000,
+  "snippets": true,
+  "description": null,
+  "savedAt": 1615122853,
+  "loadedAt": 1615122835,
+  "modified": false,
+  "filename": ".snippets.json",
+  "targets": {
+    "gycklz2w5r7": {
+      "editing": false,
+      "id": "gycklz2w5r7",
+      "key": "gycklz2w5r7",
+      "target": "CLOSE_TEASER",
+      "selector": "//*[@id=\"newsletterClose\"]",
+      "disabled": false,
+      "adding": false,
+      "parentType": "",
+      "ref": ""
+    },
+    "gycklz2xukh": {
+      "editing": true,
+      "id": "gycklz2xukh",
+      "key": "gycklz2xukh",
+      "target": "ACCEPT_USER_CENTRICS",
+      "selector": "//*[@id=\"uc-btn-accept-banner\"]",
+      "disabled": false,
+      "adding": false,
+      "parentType": "",
+      "ref": ""
+    }
+  },
+  "groups": {
+    "snippets": {
+      "editing": false,
+      "id": "snippets",
+      "key": "snippets",
+      "title": "Snippets",
+      "tests": {
+        "gycklz1q8wv": {
+          "title": "hide consult-phone (header&footer)",
+          "id": "gycklz1q8wv",
+          "editing": false,
+          "groupId": "snippets",
+          "key": "gycklz1q8wv",
+          "commands": {
+            "gycklz1qq89": {
+              "editing": false,
+              "id": "gycklz1qq89",
+              "key": "gycklz1qq89",
+              "target": "page",
+              "method": "evaluate",
+              "params": {
+                "value": "document.querySelector(\"#consult-phone\").style.visibility = \"hidden\";\ndocument.querySelector(\".call-number\").style.visibility = \"hidden\";"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "snippets",
+              "testId": "gycklz1q8wv",
+              "waitForTarget": false
+            }
+          }
+        },
+        "gycklz2kvjt": {
+          "title": "set desktop viewport",
+          "id": "gycklz2kvjt",
+          "editing": false,
+          "groupId": "snippets",
+          "key": "gycklz2kvjt",
+          "commands": {
+            "gycklz2l436": {
+              "editing": false,
+              "id": "gycklz2l436",
+              "key": "gycklz2l436",
+              "target": "page",
+              "method": "setViewport",
+              "params": {
+                "width": "1920",
+                "height": "1080",
+                "resolution": "1920x1080",
+                "deviceScaleFactor": 1,
+                "isMobile": false,
+                "hasTouch": false,
+                "isLandscape": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "snippets",
+              "testId": "gycklz2kvjt",
+              "comment": "Desktop Viewport",
+              "waitForTarget": false
+            }
+          }
+        },
+        "gycklz62fq5": {
+          "title": "close usercentrics and newsletter teaser popup if available",
+          "id": "gycklz62fq5",
+          "editing": false,
+          "groupId": "snippets",
+          "key": "gycklz62fq5",
+          "commands": {
+            "gycklz66mj5": {
+              "editing": false,
+              "id": "gycklz66mj5",
+              "key": "gycklz66mj5",
+              "target": "page",
+              "method": "evaluate",
+              "params": {
+                "value": "try {\n    document.querySelector(\"#uc-btn-accept-banner\").click();\n    document.querySelector(\"#newsletterClose\").click();\n} catch (e) {\n   // nothing to do\n}"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "snippets",
+              "testId": "gycklz62fq5",
+              "waitForTarget": false
+            }
+          }
+        }
+      },
+      "disabled": false,
+      "expanded": false,
+      "adding": false
+    }
+  },
+  "puppetry": "3.2.4"
+}

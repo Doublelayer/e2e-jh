@@ -1,0 +1,600 @@
+{
+  "title": "de-de_desktop",
+  "timeout": 50000,
+  "snippets": false,
+  "description": "",
+  "savedAt": 1615123621,
+  "loadedAt": 1615122870,
+  "modified": false,
+  "filename": "de-de.json",
+  "targets": {
+    "scklxzsr3b": {
+      "target": "INPUT_EMAIL",
+      "id": "scklxzsr3b",
+      "editing": false,
+      "selector": "//*[@id=\"email\"]",
+      "key": "scklxzsr3b"
+    },
+    "scklxzuzhr": {
+      "target": "SUBMIT_BTN",
+      "id": "scklxzuzhr",
+      "editing": false,
+      "selector": "//*[@id=\"newsletterModel\"]/*/button",
+      "ref": "",
+      "key": "scklxzuzhr"
+    },
+    "h3gglxto6ym": {
+      "editing": false,
+      "id": "h3gklxto6ym",
+      "key": "h3gklxto6ym",
+      "target": "ACCEPT_USER_CENTRICS",
+      "selector": "//*[@id=\"uc-btn-accept-banner\"]",
+      "disabled": false,
+      "adding": false,
+      "parentType": "",
+      "ref": ""
+    },
+    "h3gklxxo7c5": {
+      "editing": false,
+      "id": "h3gklxto7c5",
+      "key": "h3gklxto7c5",
+      "target": "CLOSE_TEASER",
+      "selector": "//*[@id=\"newsletterClose\"]",
+      "disabled": false,
+      "adding": false,
+      "parentType": "",
+      "ref": ""
+    }
+  },
+  "groups": {
+    "scklxzpz3k": {
+      "title": "/newsletter/register/",
+      "id": "scklxzpz3k",
+      "editing": false,
+      "key": "scklxzpz3k",
+      "tests": {
+        "gycklz2m14m": {
+          "editing": false,
+          "id": "gycklz2m14m",
+          "key": "gycklz2m14m",
+          "title": "preconfig page",
+          "commands": {
+            "gycklz61mzc": {
+              "editing": false,
+              "id": "gycklz61mzc",
+              "key": "gycklz61mzc",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "preconfig page",
+              "ref": "gycklz2kvjt",
+              "isRef": true,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2m14m"
+            },
+            "gycklz2n9ui": {
+              "editing": false,
+              "id": "gycklz2n9ui",
+              "key": "gycklz2n9ui",
+              "target": "page",
+              "method": "goto",
+              "params": {
+                "url": "{{ DE_DE_BASE_URL }}/newsletter/register/",
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2m14m",
+              "waitForTarget": false,
+              "entity": "command"
+            },
+            "gycklz698yw": {
+              "editing": false,
+              "id": "gycklz698yw",
+              "key": "gycklz698yw",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "close usercentrics and newsletter teaser popup if available",
+              "ref": "gycklz62fq5",
+              "isRef": true,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2m14m"
+            },
+            "gycklz5jrk5": {
+              "editing": false,
+              "id": "gycklz5jrk5",
+              "key": "gycklz5jrk5",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "hide consult-phone (header&footer)",
+              "ref": "gycklz1q8wv",
+              "isRef": true,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2m14m"
+            }
+          },
+          "disabled": false,
+          "expanded": false,
+          "adding": false,
+          "groupId": "scklxzpz3k"
+        },
+        "gycklz5rw04": {
+          "editing": false,
+          "id": "gycklz5rw04",
+          "key": "gycklz5rw04",
+          "title": "assert screenshot",
+          "commands": {
+            "gycklz6r64z": {
+              "editing": false,
+              "id": "gycklz6r64z",
+              "key": "gycklz6r64z",
+              "target": "page",
+              "method": "reload",
+              "params": {
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz5rw04",
+              "waitForTarget": false
+            },
+            "gycklz5s0qm": {
+              "editing": false,
+              "id": "gycklz5s0qm",
+              "key": "gycklz5s0qm",
+              "target": "page",
+              "method": "assertScreenshot",
+              "assert": {
+                "assertion": "screenshot",
+                "mismatchTolerance": "0.2"
+              },
+              "params": {
+                "name": "de-de_newsletter_register",
+                "fullPage": true,
+                "omitBackground": false,
+                "x": null,
+                "y": null,
+                "width": null,
+                "height": null,
+                "includeAA": true,
+                "diffColor": "#FF0000",
+                "aaColor": "#FFFF00"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz5rw04",
+              "waitForTarget": false
+            }
+          },
+          "disabled": false,
+          "expanded": false,
+          "adding": false,
+          "groupId": "scklxzpz3k"
+        },
+        "scklxzr02q": {
+          "title": "test email is required",
+          "id": "scklxzr02q",
+          "editing": false,
+          "groupId": "scklxzpz3k",
+          "key": "scklxzr02q",
+          "commands": {
+            "gycklz6rlef": {
+              "editing": false,
+              "id": "gycklz6rlef",
+              "key": "gycklz6rlef",
+              "target": "page",
+              "method": "reload",
+              "params": {
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "scklxzr02q",
+              "waitForTarget": false
+            },
+            "scklxzwte2": {
+              "editing": false,
+              "id": "scklxzwte2",
+              "key": "scklxzwte2",
+              "target": "SUBMIT_BTN",
+              "method": "click",
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "scklxzr02q",
+              "waitForTarget": true
+            },
+            "sckly1e1bf": {
+              "editing": false,
+              "id": "sckly1e1bf",
+              "key": "sckly1e1bf",
+              "target": "page",
+              "method": "waitForResponse",
+              "params": {
+                "value": "/register/submit/",
+                "skip": false,
+                "timeout": 30000
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "scklxzr02q",
+              "waitForTarget": false
+            },
+            "scklxzxavy": {
+              "editing": false,
+              "id": "scklxzxavy",
+              "key": "scklxzxavy",
+              "target": "page",
+              "method": "assertScreenshot",
+              "assert": {
+                "assertion": "screenshot",
+                "mismatchTolerance": "0.2"
+              },
+              "params": {
+                "name": "de-de_newsletter_email_required",
+                "fullPage": true,
+                "omitBackground": false,
+                "x": null,
+                "y": null,
+                "width": null,
+                "height": null,
+                "includeAA": true,
+                "diffColor": "#FF0000",
+                "aaColor": "#FFFF00"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "scklxzr02q",
+              "waitForTarget": false
+            }
+          }
+        },
+        "gycklz2gi6f": {
+          "editing": false,
+          "id": "gycklz2gi6f",
+          "key": "gycklz2gi6f",
+          "title": "test subrice to newsletter works as expected",
+          "commands": {
+            "gycklz309hv": {
+              "editing": false,
+              "id": "gycklz309hv",
+              "key": "gycklz309hv",
+              "target": "page",
+              "method": "reload",
+              "params": {
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2gi6f",
+              "waitForTarget": false
+            },
+            "gycklz45xbf": {
+              "editing": false,
+              "id": "gycklz45xbf",
+              "key": "gycklz45xbf",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "hide contact number (header&footer)",
+              "ref": "gycklz1q8wv",
+              "isRef": true,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2gi6f",
+              "entity": "command"
+            },
+            "gycklz2gj84": {
+              "editing": false,
+              "id": "gycklz2gj84",
+              "key": "gycklz2gj84",
+              "target": "INPUT_EMAIL",
+              "method": "type",
+              "assert": {},
+              "params": {
+                "value": "test@test.de",
+                "reset": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2gi6f",
+              "waitForTarget": false
+            },
+            "gycklz2gjfj": {
+              "editing": false,
+              "id": "gycklz2gjfj",
+              "key": "gycklz2gjfj",
+              "target": "SUBMIT_BTN",
+              "method": "click",
+              "assert": {},
+              "params": {
+                "button": "left",
+                "clickCount": 1,
+                "delay": 0
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2gi6f",
+              "waitForTarget": false
+            },
+            "gycklz2gjn7": {
+              "editing": false,
+              "id": "gycklz2gjn7",
+              "key": "gycklz2gjn7",
+              "target": "page",
+              "method": "waitForResponse",
+              "assert": {},
+              "params": {
+                "timeout": 30000,
+                "value": "/register/submit/",
+                "skip": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2gi6f",
+              "waitForTarget": false
+            },
+            "gycklz2gjug": {
+              "editing": false,
+              "id": "gycklz2gjug",
+              "key": "gycklz2gjug",
+              "target": "page",
+              "method": "assertScreenshot",
+              "assert": {
+                "assertion": "screenshot",
+                "mismatchTolerance": "0.2"
+              },
+              "params": {
+                "name": "de-de_newsletter_subcribe_show_popup",
+                "fullPage": true,
+                "omitBackground": false,
+                "x": null,
+                "y": null,
+                "width": null,
+                "height": null,
+                "includeAA": true,
+                "diffColor": "#FF0000",
+                "aaColor": "#FFFF00"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz2gi6f",
+              "waitForTarget": false
+            }
+          },
+          "disabled": true,
+          "expanded": false,
+          "adding": false,
+          "groupId": "scklxzpz3k",
+          "entity": "test"
+        }
+      },
+      "disabled": false
+    },
+    "gycklz4d3nb": {
+      "title": "/basket",
+      "id": "gycklz4d3nb",
+      "editing": false,
+      "key": "gycklz4d3nb",
+      "tests": {
+        "gycklz4fj58": {
+          "editing": false,
+          "id": "gycklz4fj58",
+          "key": "gycklz4fj58",
+          "title": "preconfig page",
+          "commands": {
+            "gycklz4fjoz": {
+              "editing": false,
+              "id": "gycklz4fjoz",
+              "key": "gycklz4fjoz",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "preconfig page",
+              "ref": "gycklz2kvjt",
+              "isRef": true,
+              "groupId": "gycklz4d3nb",
+              "testId": "gycklz4fj58"
+            },
+            "gycklz4fk0c": {
+              "editing": false,
+              "id": "gycklz4fk0c",
+              "key": "gycklz4fk0c",
+              "target": "page",
+              "method": "goto",
+              "params": {
+                "url": "{{ DE_DE_BASE_URL }}/basket/",
+                "timeout": 30000,
+                "waitUntil": "networkidle0"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "gycklz4d3nb",
+              "testId": "gycklz4fj58",
+              "waitForTarget": false,
+              "entity": "command"
+            },
+            "gycklz4kde9": {
+              "editing": false,
+              "id": "gycklz4kde9",
+              "key": "gycklz4kde9",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "hide consult-phone (header&footer)",
+              "ref": "gycklz1q8wv",
+              "isRef": true,
+              "groupId": "gycklz4d3nb",
+              "testId": "gycklz4fj58"
+            }
+          },
+          "disabled": false,
+          "expanded": false,
+          "adding": false,
+          "groupId": "gycklz4d3nb",
+          "entity": "test"
+        },
+        "gycklz4dw79": {
+          "title": "assert screenshot",
+          "id": "gycklz4dw79",
+          "editing": false,
+          "groupId": "gycklz4d3nb",
+          "key": "gycklz4dw79",
+          "commands": {
+            "gycklz4g5xz": {
+              "editing": false,
+              "id": "gycklz4g5xz",
+              "key": "gycklz4g5xz",
+              "target": "page",
+              "method": "assertScreenshot",
+              "assert": {
+                "assertion": "screenshot",
+                "mismatchTolerance": "0.2"
+              },
+              "params": {
+                "name": "de-de_basket",
+                "fullPage": true,
+                "omitBackground": false,
+                "x": null,
+                "y": null,
+                "width": null,
+                "height": null,
+                "includeAA": true,
+                "diffColor": "#FF0000",
+                "aaColor": "#FFFF00"
+              },
+              "disabled": false,
+              "failure": "Error: [page.assertScreenshot] expected to satisfy mismatch tolerance of 0.2",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "gycklz4d3nb",
+              "testId": "gycklz4dw79",
+              "waitForTarget": false
+            }
+          }
+        }
+      },
+      "disabled": false
+    }
+  },
+  "puppetry": "3.2.4"
+}

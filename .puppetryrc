@@ -1,0 +1,149 @@
+{
+  "name": "Profishop",
+  "appPanels": {
+    "suite": {
+      "panes": [
+        "groups"
+      ]
+    },
+    "settings": {
+      "panes": []
+    }
+  },
+  "groups": {
+    "snippets": {
+      "key": "snippets",
+      "value": true,
+      "tests": {
+        "gycklz1q8wv": {
+          "key": "gycklz1q8wv",
+          "value": true
+        },
+        "gycklz2kvjt": {
+          "key": "gycklz2kvjt",
+          "value": true
+        },
+        "gycklz2vntp": {
+          "key": "gycklz2vntp",
+          "value": true
+        },
+        "gycklz2xc07": {
+          "key": "gycklz2xc07",
+          "value": true
+        },
+        "gycklz62fq5": {
+          "key": "gycklz62fq5",
+          "value": true
+        }
+      }
+    },
+    "sckly07ogh": {
+      "key": "sckly07ogh",
+      "value": true,
+      "tests": {}
+    },
+    "scklxzpz3k": {
+      "key": "scklxzpz3k",
+      "value": true,
+      "tests": {
+        "gycklz2m14m": {
+          "key": "gycklz2m14m",
+          "value": true
+        },
+        "scklxzr02q": {
+          "key": "scklxzr02q",
+          "value": true
+        },
+        "gycklz2gi6f": {
+          "key": "gycklz2gi6f",
+          "value": false
+        },
+        "gycklz5rcd0": {
+          "key": "gycklz5rcd0",
+          "value": true
+        },
+        "gycklz5rw04": {
+          "key": "gycklz5rw04",
+          "value": true
+        }
+      }
+    },
+    "gycklz29svj": {
+      "key": "gycklz29svj",
+      "value": true,
+      "tests": {}
+    },
+    "gycklz4d3nb": {
+      "key": "gycklz4d3nb",
+      "value": true,
+      "tests": {
+        "gycklz4fj58": {
+          "key": "gycklz4fj58",
+          "value": true
+        },
+        "gycklz4dw79": {
+          "key": "gycklz4dw79",
+          "value": true
+        }
+      }
+    },
+    "gycklz4qurj": {
+      "key": "gycklz4qurj",
+      "value": true,
+      "tests": {}
+    },
+    "gycklz4s1t0": {
+      "key": "gycklz4s1t0",
+      "value": true,
+      "tests": {
+        "gycklz4sh6t": {
+          "key": "gycklz4sh6t",
+          "value": true
+        }
+      }
+    }
+  },
+  "savedAt": 1615123631,
+  "modified": false,
+  "lastOpenSuite": "de-de.json",
+  "variables": {
+    "gycklz2phns": {
+      "name": "DE_DE_BASE_URL",
+      "id": "gycklz2phns",
+      "editing": false,
+      "value": "https://www.jh-profishop.de",
+      "env": "live",
+      "key": "gycklz2phns"
+    },
+    "gycklz2qvdk": {
+      "editing": false,
+      "id": "gycklz2qvdk",
+      "key": "gycklz2qvdk",
+      "name": "DE_DE_BASE_URL",
+      "value": "https://www.jh-local.de",
+      "env": "local",
+      "disabled": false,
+      "adding": false,
+      "hidden": false
+    },
+    "gycklz2qvje": {
+      "editing": false,
+      "id": "gycklz2qvje",
+      "key": "gycklz2qvje",
+      "name": "DE_DE_BASE_URL",
+      "value": "https://www.jh-integ-profishop.de",
+      "env": "integ",
+      "disabled": false,
+      "adding": false,
+      "hidden": false
+    }
+  },
+  "targets": {},
+  "environments": [
+    "local",
+    "integ",
+    "live"
+  ],
+  "projectDirectory": "C:\\Users\\Florin Hamann\\Documents\\Development\\puperteer-test\\profishop\\profishop",
+  "puppetry": "3.2.4"
+}
