@@ -3,8 +3,8 @@
   "timeout": 50000,
   "snippets": false,
   "description": "",
-  "savedAt": 1615123621,
-  "loadedAt": 1615122870,
+  "savedAt": 1615194966,
+  "loadedAt": 1615193767,
   "modified": false,
   "filename": "de-de.json",
   "targets": {
@@ -126,7 +126,7 @@
               "method": "",
               "assert": {},
               "params": {},
-              "disabled": false,
+              "disabled": true,
               "failure": "",
               "variables": {},
               "expanded": false,
@@ -168,6 +168,25 @@
               "groupId": "scklxzpz3k",
               "testId": "gycklz5rw04",
               "waitForTarget": false
+            },
+            "ab0km0cyv96": {
+              "editing": false,
+              "id": "ab0km0cyv96",
+              "key": "ab0km0cyv96",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "hide consult-phone (header&footer)",
+              "ref": "gycklz1q8wv",
+              "isRef": true,
+              "groupId": "scklxzpz3k",
+              "testId": "gycklz5rw04",
+              "entity": "command"
             },
             "gycklz5s0qm": {
               "editing": false,
@@ -236,6 +255,25 @@
               "testId": "scklxzr02q",
               "waitForTarget": false
             },
+            "ab0km0cz119": {
+              "editing": false,
+              "id": "ab0km0cz119",
+              "key": "ab0km0cz119",
+              "target": "",
+              "method": "",
+              "assert": {},
+              "params": {},
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "hide consult-phone (header&footer)",
+              "ref": "gycklz1q8wv",
+              "isRef": true,
+              "groupId": "scklxzpz3k",
+              "testId": "scklxzr02q",
+              "entity": "command"
+            },
             "scklxzwte2": {
               "editing": false,
               "id": "scklxzwte2",
@@ -267,7 +305,7 @@
               "params": {
                 "value": "/register/submit/",
                 "skip": false,
-                "timeout": 30000
+                "timeout": 5000
               },
               "disabled": false,
               "failure": "",
@@ -412,11 +450,10 @@
               "key": "gycklz2gjn7",
               "target": "page",
               "method": "waitForResponse",
-              "assert": {},
               "params": {
-                "timeout": 30000,
                 "value": "/register/submit/",
-                "skip": false
+                "skip": false,
+                "timeout": 5000
               },
               "disabled": false,
               "failure": "",
@@ -437,7 +474,7 @@
               "method": "assertScreenshot",
               "assert": {
                 "assertion": "screenshot",
-                "mismatchTolerance": "0.2"
+                "mismatchTolerance": "0.3"
               },
               "params": {
                 "name": "de-de_newsletter_subcribe_show_popup",
@@ -463,7 +500,7 @@
               "waitForTarget": false
             }
           },
-          "disabled": true,
+          "disabled": false,
           "expanded": false,
           "adding": false,
           "groupId": "scklxzpz3k",
@@ -580,7 +617,7 @@
                 "aaColor": "#FFFF00"
               },
               "disabled": false,
-              "failure": "Error: [page.assertScreenshot] expected to satisfy mismatch tolerance of 0.2",
+              "failure": "",
               "variables": {},
               "expanded": false,
               "refName": "",

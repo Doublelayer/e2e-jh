@@ -56,7 +56,7 @@
         },
         "gycklz2gi6f": {
           "key": "gycklz2gi6f",
-          "value": false
+          "value": true
         },
         "gycklz5rcd0": {
           "key": "gycklz5rcd0",
@@ -103,7 +103,7 @@
       }
     }
   },
-  "savedAt": 1615123631,
+  "savedAt": 1615196749,
   "modified": false,
   "lastOpenSuite": "de-de.json",
   "variables": {
@@ -120,7 +120,7 @@
       "id": "gycklz2qvdk",
       "key": "gycklz2qvdk",
       "name": "DE_DE_BASE_URL",
-      "value": "https://www.jh-local.de",
+      "value": "https://jh-de.local",
       "env": "local",
       "disabled": false,
       "adding": false,
@@ -131,7 +131,7 @@
       "id": "gycklz2qvje",
       "key": "gycklz2qvje",
       "name": "DE_DE_BASE_URL",
-      "value": "https://www.jh-integ-profishop.de",
+      "value": "https://jh-de-integ-ishop.novomind.com",
       "env": "integ",
       "disabled": false,
       "adding": false,
